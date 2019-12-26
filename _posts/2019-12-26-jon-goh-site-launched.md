@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jon Goh, cool guy, Launches Site"
+title: "Jon Goh, Launches Site"
 date: 2019-12-26
 ---
 
