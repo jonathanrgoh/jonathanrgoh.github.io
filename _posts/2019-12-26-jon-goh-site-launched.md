@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Hank Quinlan, Horrible Cop, Launches Site"
-date: 2014-04-30
+title: "Jon Goh, Launches Site"
+date: 2019-12-26
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Cool that I got my first blog post on my website. The blog on my static site is powered by [Jekyll](http://jekyllrb.com) and I can use HTML/Markdown to author my posts.
