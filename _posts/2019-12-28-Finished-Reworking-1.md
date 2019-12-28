@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Finished Reworking 1"
-date: 2019-12-27
+date: 2019-12-28
 ---
 
 So it is 12:04 AM. IDK how long it has been, but i think it has taken me about 6 hours to complete the 'About' and 'Resume' pages.
