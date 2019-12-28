@@ -62,7 +62,7 @@ div.vertical {
 				<div class="box">
 					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="Password" /> <br />
 					<button id="loginbutton" type="button">Enter</button>
-					<p id="wrongPassword" style="display: none"> Oops :( wrong password</p>
+					<p id="wrongPassword" style="display: none">Oops :( wrong password</p>
 				</div>
 			</div>
 		</div>
@@ -90,7 +90,7 @@ div.vertical {
 			error : function(xhr, ajaxOptions, thrownError) {
 				parent.location.hash= hash;
 				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
+				$("#password").attr("placeholder","Oops :( wrong password");
 				$("#password").val("");
 			}
 		});
