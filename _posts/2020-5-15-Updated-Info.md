@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jon Goh, Launches Site"
+title: "Updated Site Information"
 date: 2020-5-15
 ---
 
