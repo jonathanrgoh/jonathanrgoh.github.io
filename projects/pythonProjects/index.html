@@ -1,0 +1,48 @@
+---
+layout: default
+title: My Python Projects
+---
+<body style="background-color:powderblue;">
+
+<div class="blurb">
+	
+	<br><br><br>
+		<h1>Python Projects</h1>
+    
+    
+    
+    
+    
+	
+		<h2 style="color:darkblue;">Joystick Game Controller Serial Input</h2>
+		<p>In this project, I created a game controller using an Arduino Nano, Joysticks, and Buttons. From there I read the data from each input sensor and translated that into a "character value" Right (r), Left (l), Up (u), Down (d), and random values for the buttons as high or low. Next I used a python script to read data from the serial ports of the computer where the Arduino was connected. By doing this I was able to turn the character data from the serial port into actual keyboard actions. Lastly, I created a basic snake game to allow the user to test the keyboard inputs and to play the game with the joystick input device.<a href="https://github.com/jonathanrgoh/Embedded-Systems-Projects/tree/master/Serial_Input_Game_Controller" style="color:red;"> Link.</a></p>
+	
+	<iframe width="800" height="415" src="https://www.youtube.com/embed/Inq5McmsqP4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<p><img src="\images\home\joystick.jpg" style="width:800px;height:500px;" alt="joystick.jpg"></p>
+	
+	<br><br><br><br><br>
+	
+	<h2 style="color:darkblue;">Gesture Recognition Device</h2>
+		<p>In this project, I created a device that has gesture recognition capabilities using an Arduino Nano and its Inertial Measurement Unit. Firstly, I collected the proper training data for my model; I trained the device to detect Punches, Arm-Flexes, and Wrist Rotations. After collecting the data, I used the TinyML library to train my models and generate loss functions for each trial. Next I converted my trained model to Tensor-Flow Lite, whcih was then encoded into an Arduino Header File. Lastly, I included this trained model header file into my final arduino testing code, in order to properly recognize my motions.<a href="https://github.com/jonathanrgoh/Embedded-Systems-Projects/tree/master/Gesture-Recognition" style="color:red;"> Link.</a></p>
+	
+	<iframe width="800" height="415" src="https://www.youtube.com/embed/soLgaHHQN38" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<br><br><br><br><br>
+	
+	
+	<h2 style="color:darkblue;">Color Recognition Device</h2>
+		<p>In this project, I created a device that has color recognition capabilities using an Arduino Nano and its Proximity & Color Sensors. Firstly, I collected the proper training data for my model; I trained the device to detect Orange, Green, and Blue colored items. After collecting the data, I used the TinyML library to train my models and generate loss functions for each trial. Next I converted my trained model to Tensor-Flow Lite, whcih was then encoded into an Arduino Header File. Lastly, I included this trained model header file into my final arduino testing code, in order to properly recognize the colors of objects.<a href="https://github.com/jonathanrgoh/Embedded-Systems-Projects/tree/master/Color-Recognition" style="color:red;"> Link.</a></p>
+	
+	<iframe width="800" height="415" src="https://www.youtube.com/embed/sENTibgwjqM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<br><br><br><br><br>
+		
+	
+		<h2 style="color:darkblue;">WiFi MQTT with BLE Servers/Clients </h2>
+		<p>In this project, I created several Clients & Servers using an Arduino Nano 33 BLE Sense, an ESP32 DevKit, and an MQTT Protocol with Ubidots. The Arduino to capture proximity/gesture data and x/y/z coordinate acceleration data. I then created a server in the Arduino IDE to post data to a peripheral via Bluetooth Low Energy (BLE) signals. Next, the ESP32's BLE functionality was utilized to capture the Arduino Sensor Data by creating a Client that was subscribed to the specified Characteristics of the Arduino. Lastly, an MQTT protocol was used to allow the ESP32 to transmit data via WiFi to a Ubidots Client webpage. The ultimate goal of this project was to become familiar with BLE and MQTT data transmission, and to capture real-time sensor data from a remote location.<a href="https://github.com/jonathanrgoh/Embedded-Systems-Projects/tree/master/UbidotsClientServer_Project" style="color:red;"> Link.</a></p>
+	
+	<p><img src="https://media2.giphy.com/media/Reyx4TKkSvwNUVoKsl/giphy.gif" style="width:800px;height:550px;" alt="NachenBlaster gif"><img src="\images\home\ubidotsStuff.PNG" style="width:800px;height:500px;" alt="ubidots"></p>
+		<br><br><br><br><br>
+	
+</div><!-- /.blurb -->
