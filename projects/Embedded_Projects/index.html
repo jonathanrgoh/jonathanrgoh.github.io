@@ -8,6 +8,18 @@ title: My Embedded Systems Projects
 	
 	<br><br><br>
 		<h1>Embedded Systems Projects</h1>
+
+	<h2 style="color:darkblue;">Raspberry Pi Swing Classifier</h2>
+		<p>I designed a swing classifier using the 9-axis IMU’s accelerometer data and a Raspberry Pi Zero WH for its WiFi capabilities with MQTT. I sensed a wide range of different motions that the user could make: No motion, Motion, Back Swing, Down Swing, Complete Swing, and Swing Power. To sense the swing gesture, I used a hard-coded classifier rather than a machine-learning classifier. 
+ 
+Before classification begins, there is a 5 second calibration period in which the user is prompted to get into their starting position. At the end of the calibration period, the users’ unique starting position is stored and taken into account with their swing. Next, classification begins; once a complete swing is sensed, a MQTT publish statement is sent to the server and retrieved by Unity. After the successful transmission, the program will terminate. In the case that there is no swing detected, an MQTT string “noSwing” will be published to the server and received by Unity, which results in the “startClassifier” string being resent to the python file. The classification function will be invoked in a cyclic manner until a swing is sensed.<a href="https://github.com/180D-FW-2020/Team5/blob/IMU-Dev/classifyClient/masterFile3.py" style="color:red;"> Link.</a></p>
+	
+	<iframe width="800" height="415" src="https://www.youtube.com/embed/1msK8oTOCk0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	<br><br><br><br><br>
+	
+	
+	
 	
 		<h2 style="color:darkblue;">Joystick Game Controller Serial Input</h2>
 		<p>In this project, I created a game controller using an Arduino Nano, Joysticks, and Buttons. From there I read the data from each input sensor and translated that into a "character value" Right (r), Left (l), Up (u), Down (d), and random values for the buttons as high or low. Next I used a python script to read data from the serial ports of the computer where the Arduino was connected. By doing this I was able to turn the character data from the serial port into actual keyboard actions. Lastly, I created a basic snake game to allow the user to test the keyboard inputs and to play the game with the joystick input device.<a href="https://github.com/jonathanrgoh/Embedded-Systems-Projects/tree/master/Serial_Input_Game_Controller" style="color:red;"> Link.</a></p>
