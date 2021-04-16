@@ -11,22 +11,20 @@ title: My Embedded Systems Projects
 	<h1>Embedded Systems Projects</h1>
 	
 	
-	<center>
+
 <div id="toc_container">
-<p class="toc_title">Contents</p>
+<p class="toc_title">Table of Contents</p>
 <ul class="toc_list">
-  <li><a href="#First_Point_Header">1 First Point Header</a>
-  <ul>
-    <li><a href="#First_Sub_Point_1">1.1 First Sub Point 1</a></li>
-    <li><a href="#First_Sub_Point_2">1.2 First Sub Point 2</a></li>
-  </ul>
-</li>
-<li><a href="#Second_Point_Header">2 Second Point Header</a></li>
-<li><a href="#Third_Point_Header">3 Third Point Header</a></li>
+	<li><a href="#RaspPutt">1 Raspberry Putt Mini Golf</a></li>
+	<li><a href="#Swing">2 Raspberry Pi Swing Classifier</a></li>
+	<li><a href="#Joystick">3 Joystick Game Controller Serial Input</a></li>
+	<li><a href="#Gesture">4 Gesture Recognition Device</a></li>
+	<li><a href="#Color">5 Color Recognition Device</a></li>
+	<li><a href="#Wifi">6 WiFi MQTT with BLE Servers/Clients</a></li>
 </ul>
 </div>
 	
-	</center>
+
 	
 	<a id="RaspPutt"></a>
 	<h2 style="color:darkblue;">Raspberry Putt Capstone Project</h2>
@@ -46,7 +44,7 @@ title: My Embedded Systems Projects
 	
 	
 	
-
+	<a id="Swing"></a>
 	<h2 style="color:darkblue;">Raspberry Pi Swing Classifier</h2>
 		<p>I designed a swing classifier using the 9-axis IMU’s accelerometer data and a Raspberry Pi Zero WH for its WiFi capabilities with MQTT. I sensed a wide range of different motions that the user could make: No motion, Motion, Back Swing, Down Swing, Complete Swing, and Swing Power. To sense the swing gesture, I used a hard-coded classifier rather than a machine-learning classifier. 
  
@@ -72,6 +70,7 @@ Before classification begins, there is a 5 second calibration period in which th
 	
 	
 	
+	<a id="Gesture"></a>
 	<h2 style="color:darkblue;">Gesture Recognition Device</h2>
 		<p>In this project, I created a device that has gesture recognition capabilities using an Arduino Nano and its Inertial Measurement Unit. Firstly, I collected the proper training data for my model; I trained the device to detect Punches, Arm-Flexes, and Wrist Rotations. After collecting the data, I used the TinyML library to train my models and generate loss functions for each trial. Next I converted my trained model to Tensor-Flow Lite, whcih was then encoded into an Arduino Header File. Lastly, I included this trained model header file into my final arduino testing code, in order to properly recognize my motions.<a href="https://github.com/jonathanrgoh/Embedded-Systems-Projects/tree/master/Gesture-Recognition" style="color:red;"> Link.</a></p>
 	<center>
@@ -81,6 +80,7 @@ Before classification begins, there is a 5 second calibration period in which th
 	
 	
 	
+	<a id="Color"></a>
 	<h2 style="color:darkblue;">Color Recognition Device</h2>
 		<p>In this project, I created a device that has color recognition capabilities using an Arduino Nano and its Proximity & Color Sensors. Firstly, I collected the proper training data for my model; I trained the device to detect Orange, Green, and Blue colored items. After collecting the data, I used the TinyML library to train my models and generate loss functions for each trial. Next I converted my trained model to Tensor-Flow Lite, whcih was then encoded into an Arduino Header File. Lastly, I included this trained model header file into my final arduino testing code, in order to properly recognize the colors of objects.<a href="https://github.com/jonathanrgoh/Embedded-Systems-Projects/tree/master/Color-Recognition" style="color:red;"> Link.</a></p>
 	<center>
