@@ -50,6 +50,7 @@ ul.posts li {
 
 #toc_container {
     background: #bababa none repeat scroll 0 0;
+    background-color: coral;
     border: 1px solid #aaa;
     display: table;
     font-size: 95%;
